@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:background="@color/gray_light" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout 
+        android:id="@+id/content_relative_title" 
+        android:background="@drawable/app_red_bg" 
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+     
+      <TextView android:textSize="18.0sp" 
+            android:textColor="@color/white" 
+            android:gravity="center" 
+            android:id="@+id/topic_title_tv" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:text="护肤品分类" 
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+     <color name="button_unselected">#ff54acea</color>
+      <color name="common_red">#ccf6578d</color>
+    <color name="black">#ff000000</color>
+    <color name="black_light">#ff3c3c3c</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#ffc5c7d3</color>
+     <color name="head">#ffb10000</color>  
+    <color name="midtransparent">#33000000</color>
+    <color name="gray_hard">#ff242424</color>
+    <color name="gray_light">#ffeaeaea</color>
+    <color name="gray_light_transparent">#bbc5c7d3</color>
+    <color name="gray_light_transparent1">#44000000</color>
+    <color name="personal_item_bg_pressed">#ffff7da8</color>
+    <color name="personal_item_divideline">#ffdedad2</color>
+    <color name="topic_content">#ff333333</color>
+    <color name="share_dialog_bg">#ffefe6e9</color>
+    <color name="login_bottom_title_pink_light">#ffffadc9</color>
+    <color name="topic_tab_title_font">#ffff7fac</color>
+    <color name="share_dialog_item_font">#ff6b696a</color>
+    <color name="share_dialog_cancel_btn_title">#ff7d7b7c</color>
+    <color name="store_state_buy">#fffe0100</color>
+    <color name="store_state_before">#ff82c8f0</color>
+    <color name="gray_font">#ff979797</color>
+    <color name="dark_gray_font">#ff242424</color>
+    <color name="water">#ff4fc5ff</color>
+    <color name="oil">#fffed59b</color>
+    <color name="divide_line_color">#ffd2d2d2</color>
+    <color name="common_bg_color">#ffececec</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff93757b</color>
+     <color name="pink">#fb5b7f</color>
+     <color name="divide">#cccccc</color>
+     <color name="window_bg">#ffeef1f3</color>
+      <!-- 暗绿色 -->
+     <color name="blue">#0000ff</color>
+      <!-- 亮蓝色 -->
+    <color name="darkgray">#a9a9a9</color>
+    
+</resources>

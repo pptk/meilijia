@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     <dimen name="font_size_title">20.0sp</dimen>
+    <dimen name="hot_list_item_title">14.0sp</dimen>
+    <dimen name="test_pro_width">180.0dip</dimen>
+    <dimen name="topic_font_ht">15.0sp</dimen>
+    <dimen name="humidity_list_item1_daren_tv5">15.0sp</dimen>
+    <dimen name="daren_list_section_tv1">20.0sp</dimen>
+    <dimen name="daren_list_section_tv3">15.0sp</dimen>
+    <dimen name="topic_cate_item_title">13.0sp</dimen>
+    <dimen name="humidity_list_item1_daren_tv1">20.0sp</dimen>
+    <dimen name="humidity_list_item1_daren_tv2">17.0sp</dimen>
+    <dimen name="humidity_list_item1_daren_tv3">15.0sp</dimen>
+    <dimen name="humidity_list_item1_daren_tv4">15.0sp</dimen>
+    <dimen name="daren_list_section_tv2">15.0sp</dimen>
+    <dimen name="daren_list_section_tv4">15.0sp</dimen>
+    <dimen name="test_pro_bg_width">190.0dip</dimen>
+    <dimen name="updatebar_height">62.0dip</dimen>
+    <dimen name="updatebar_content_height">60.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    <dimen name="test_arrow_width">60.0dip</dimen>
+    <dimen name="login_btn_title">14.0sp</dimen>
+    <dimen name="test_record_fh">12.0sp</dimen>
+    <dimen name="test_tv_result">18.0sp</dimen>
+    <dimen name="test_tv_result1">18.0sp</dimen>
+    <dimen name="test_record_show_width">60.0dip</dimen>
+    <dimen name="section_list_item_title">18.0sp</dimen>
+    <dimen name="test_btn_test_record_title">15.0sp</dimen>
+     <dimen name="pull_header_height">62.0dip</dimen>
+    <dimen name="pull_header_content_height">60.0dip</dimen>
+    <dimen name="pull_header_padding">10.0dip</dimen>
+
+    <dimen name="common_font_title">20.0sp</dimen>
+    <dimen name="personal_info_font">15.0sp</dimen>
+    <dimen name="act_list_time_bg_left_top">0.0dip</dimen>
+    <dimen name="act_list_time_bg_right_top">15.0dip</dimen>
+    <dimen name="act_list_time_bg_left_bottom">15.0dip</dimen>
+    <dimen name="act_list_time_bg_right_bottom">0.0dip</dimen>
+    <!-- 四类字体大小 -->
+   <dimen name="small_text_size">14sp</dimen>
+   <dimen name="medium_text_size">18sp</dimen>
+     <dimen name="micro_text_size">12sp</dimen>
+       <!-- 首页Gallery高度 -->
+    <dimen name="index_gallery_height">120dp</dimen>
+    <!-- 首页Gallery高度 -->
+</resources>

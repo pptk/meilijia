@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/content_lly" 
+    android:background="@color/gray_light" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+  <RelativeLayout android:id="@+id/title_rly" 
+      android:background="@drawable/app_red_bg" 
+      android:layout_width="fill_parent" 
+      android:layout_height="50.0dip" 
+      android:layout_alignParentTop="true">
+      
+  
+  
+  <TextView 
+      android:textSize="18.0sp" 
+      android:textColor="@color/white" 
+      android:gravity="center" 
+      android:layout_width="wrap_content" 
+      android:layout_height="fill_parent" 
+      android:text="资料设置" 
+      android:layout_centerHorizontal="true" />
+  </RelativeLayout>
+  
+   <ScrollView android:layout_width="fill_parent" 
+       android:layout_height="fill_parent" 
+       android:layout_below="@+id/title_rly">
+  
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        
+<RelativeLayout
+    android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:background="@drawable/personal_item_bg" 
+    android:padding="15.0dip" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:onClick="onChangeHeaderImgListener">
+    
+<TextView 
+    android:id="@+id/touxiang"
+    android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="头像" 
+    android:layout_centerVertical="true" />
+
+  <TextView
+      android:id="@+id/account_info_info_he" 
+      android:duplicateParentState="true" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginRight="5.0dip" 
+      android:drawableRight="@drawable/personal_item_rightarrow" 
+      android:drawablePadding="5.0dip" 
+      android:layout_alignParentRight="true" 
+      android:layout_centerVertical="true" />
+  
+    <ImageView 
+        android:id="@+id/acc_header_iv" 
+        android:layout_width="55.0dip" 
+        android:layout_height="55.0dip" 
+        android:layout_toLeftOf="@id/account_info_info_he" 
+        android:contentDescription="@null" />
+  </RelativeLayout>
+     
+     
+<RelativeLayout android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:tag="0" 
+    android:background="@drawable/personal_item_bg" 
+    android:padding="15.0dip" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:onClick="OnSelectListener">
+    
+  <TextView 
+      android:id="@+id/nicheng"
+      android:textSize="@dimen/personal_info_font" 
+      android:textColor="@color/personal_item_font_title" 
+      android:duplicateParentState="true" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="昵称" 
+      android:layout_centerVertical="true" />
+  <TextView
+      android:id="@+id/nicheng_text"
+      android:textSize="@dimen/personal_info_font"
+      android:textColor="@color/personal_item_font_title"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toLeftOf="@+id/account_info_info_nc"
+      android:text="djdla"
+      />
+  <TextView 
+      android:textSize="@dimen/personal_info_font" 
+      android:textColor="@color/personal_item_font_title" 
+      android:ellipsize="end" 
+      android:id="@+id/account_info_info_nc" 
+      android:duplicateParentState="true" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginRight="5.0dip" 
+      android:maxEms="7" 
+      android:singleLine="true" 
+      android:drawableRight="@drawable/personal_item_rightarrow" 
+      android:drawablePadding="5.0dip" 
+      android:layout_alignParentRight="true" 
+      android:layout_centerVertical="true" />
+ </RelativeLayout>
+
+ <RelativeLayout android:orientation="horizontal" 
+     android:tag="1" 
+     android:background="@drawable/personal_item_bg" 
+     android:padding="15.0dip" 
+     android:clickable="true" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:onClick="OnSelectListener">
+<TextView 
+    android:id="@+id/qianming"
+    android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="个性签名" 
+    android:layout_centerVertical="true" />
+<EditText
+      android:id="@+id/qianming_text"
+      android:textSize="@dimen/personal_info_font"
+      android:layout_width="150dip" 
+      android:layout_height="wrap_content" 
+      android:layout_toLeftOf="@+id/account_info_info_gxqm"
+      android:hint="你还没有设置个性签名"
+      android:textColor="@android:color/black"
+      />
+<TextView 
+    android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:ellipsize="end" 
+    android:id="@+id/account_info_info_gxqm" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginRight="5.0dip" 
+    android:maxEms="6" 
+    android:singleLine="true" 
+    android:drawableRight="@drawable/personal_item_rightarrow" 
+    android:drawablePadding="5.0dip" 
+    android:layout_alignParentRight="true" 
+    android:layout_centerVertical="true" />
+
+</RelativeLayout>
+ <RelativeLayout android:orientation="horizontal" 
+     android:tag="3" 
+     android:background="@drawable/personal_item_bg" 
+     android:padding="15.0dip" 
+     android:clickable="true"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginTop="10.0dip" 
+     android:onClick="OnSelectListener">
+
+<TextView 
+    android:id="@+id/nianling"
+    android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="年龄段" 
+    android:layout_centerVertical="true" />
+<EditText
+      android:id="@+id/nianling_text"
+      android:textSize="@dimen/personal_info_font"
+      android:textColor="@android:color/black"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toLeftOf="@+id/account_info_info_age"
+      android:hint="未设置"
+      />
+<TextView android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:ellipsize="end" 
+    android:id="@+id/account_info_info_age" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginRight="5.0dip" 
+    android:maxEms="6" 
+    android:singleLine="true" 
+    android:drawableRight="@drawable/personal_item_rightarrow" 
+    android:drawablePadding="5.0dip" 
+    android:layout_alignParentRight="true" 
+    android:layout_centerVertical="true" />
+</RelativeLayout>
+  
+<RelativeLayout android:orientation="horizontal" 
+    android:tag="4" 
+    android:background="@drawable/personal_item_bg" 
+    android:padding="15.0dip" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:onClick="OnSelectListener">
+
+<TextView 
+    android:id="@+id/address"
+    android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="地区" 
+    android:layout_centerVertical="true" />
+<EditText
+      android:id="@+id/address_text"
+      android:textSize="@dimen/personal_info_font"
+      android:textColor="@android:color/black"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toLeftOf="@+id/account_info_info_address"
+      android:hint="未设置"
+      />
+<TextView android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/personal_item_font_title" 
+    android:ellipsize="end" 
+    android:id="@+id/account_info_info_address" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginRight="5.0dip" 
+    android:maxEms="6" 
+    android:singleLine="true" 
+    android:drawableRight="@drawable/personal_item_rightarrow" 
+    android:drawablePadding="5.0dip" 
+    android:layout_alignParentRight="true" 
+    android:layout_centerVertical="true" />
+ </RelativeLayout>
+ 
+     <TextView
+        android:id="@+id/zixun_jiange2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip" />
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="#ec3f5f"
+        android:text="确认修改"
+        android:textColor="@android:color/white" />
+ 
+ 
+   
+</LinearLayout>
+   </ScrollView>
+    
+</RelativeLayout>

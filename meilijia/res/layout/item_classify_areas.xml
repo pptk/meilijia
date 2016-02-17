@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 市下的各种地区表项 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp" >
+
+    <ImageView
+        android:id="@+id/imageView_item_classify_areas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="没啥作用" />
+
+    <TextView
+        android:id="@+id/textView_item_classifyAreas_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

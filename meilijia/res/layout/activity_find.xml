@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+ <RelativeLayout android:gravity="center_vertical" 
+     android:id="@+id/top_rll" 
+     android:background="@drawable/title_bg" 
+     android:layout_width="fill_parent" 
+     android:layout_height="50.0dip">
+     
+<TextView android:textSize="@dimen/font_size_title" 
+    android:textColor="@color/white" 
+    android:gravity="center" 
+    android:id="@+id/index_title" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/find_tv_hd" 
+    android:singleLine="true" 
+    android:layout_centerInParent="true" />
+</RelativeLayout>
+
+  <RelativeLayout android:gravity="center_vertical" 
+      android:orientation="horizontal" 
+      android:clickable="true" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:layout_margin="10.0sp" 
+      android:onClick="onActListener">
+
+  <ImageView android:id="@+id/personal_iv_dd" 
+      android:layout_width="45.0dip" 
+      android:layout_height="45.0dip" 
+      android:layout_marginRight="5.0dip" 
+      android:src="@drawable/find_avtivity" 
+      android:layout_alignParentLeft="true" 
+      android:layout_centerVertical="true" 
+      android:contentDescription="@null" />
+  
+  <LinearLayout
+      android:id="@+id/ll_activityss" 
+      android:orientation="vertical" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@id/personal_iv_dd" 
+      android:layout_centerVertical="true">
+      
+    <TextView android:textSize="16.0sp" 
+              android:textColor="@color/app_black_gray" 
+              android:duplicateParentState="true" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" 
+              android:text="活动" />
+  <TextView android:textSize="@dimen/personal_info_font" 
+      android:textColor="@color/gray_font" 
+      android:duplicateParentState="true" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginTop="8.0dip" 
+      android:text="定期提供最新最IN的活动" />
+  </LinearLayout>
+  </RelativeLayout>
+   <RelativeLayout android:gravity="center_vertical" 
+       android:orientation="horizontal" 
+       android:clickable="true" 
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content" 
+       android:layout_margin="10.0sp" 
+       android:onClick="onFreeListener">
+  
+ <ImageView android:id="@id/personal_iv_dd" 
+     android:layout_width="45.0dip" 
+     android:layout_height="45.0dip" 
+     android:layout_marginRight="5.0dip" 
+     android:src="@drawable/find_free" 
+     android:layout_alignParentLeft="true" 
+     android:layout_centerVertical="true" 
+     android:contentDescription="@null" />
+ 
+<LinearLayout android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_toRightOf="@id/personal_iv_dd" 
+    android:layout_centerVertical="true">
+  
+<TextView android:textSize="16.0sp" 
+    android:textColor="@color/app_black_gray" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="免费试用" />
+
+<TextView android:textSize="@dimen/personal_info_font" 
+    android:textColor="@color/gray_font" 
+    android:duplicateParentState="true" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="8.0dip" 
+    android:text="大牌妆品，免费申请试用" />
+ </LinearLayout>
+</RelativeLayout>
+<RelativeLayout android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_margin="10.0sp" 
+    android:onClick="onMenstruationPlanListener">
+
+ <ImageView android:id="@id/personal_iv_dd" 
+     android:layout_width="45.0dip" 
+     android:layout_height="45.0dip" 
+     android:layout_marginRight="5.0dip" 
+     android:src="@drawable/find_plan" 
+     android:layout_alignParentLeft="true" 
+     android:layout_centerVertical="true" 
+     android:contentDescription="@null" />
+ 
+ <LinearLayout 
+     android:id="@+id/jc_activitys"
+     android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_toRightOf="@id/personal_iv_dd" 
+     android:layout_centerVertical="true">
+
+ <TextView android:textSize="16.0sp" 
+     android:textColor="@color/app_black_gray" 
+     android:duplicateParentState="true" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="护肤技巧" />
+ 
+ <TextView android:textSize="@dimen/personal_info_font" 
+     android:textColor="@color/gray_font" 
+     android:duplicateParentState="true" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:layout_marginTop="8.0dip" 
+     android:text="针对女性护肤小技巧" />
+ </LinearLayout>
+</RelativeLayout>
+<RelativeLayout android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_margin="10.0sp" 
+    android:onClick="onRemindListener">
+ 
+ <ImageView android:id="@id/personal_iv_dd" 
+     android:layout_width="45.0dip" 
+     android:layout_height="45.0dip" 
+     android:layout_marginRight="5.0dip" 
+     android:src="@drawable/find_notify" 
+     android:layout_alignParentLeft="true" 
+     android:layout_centerVertical="true" 
+     android:contentDescription="@null" />
+ 
+ <LinearLayout android:orientation="vertical" 
+     android:id="@+id/tixin"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_toRightOf="@id/personal_iv_dd" 
+     android:layout_centerVertical="true">
+ 
+ <TextView android:textSize="16.0sp" 
+     android:textColor="@color/app_black_gray" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="护肤星座" />
+ 
+ <TextView android:textSize="@dimen/personal_info_font" 
+     android:textColor="@color/gray_font" 
+     android:duplicateParentState="true" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:layout_marginTop="8.0dip" 
+     android:text="再也不会错过最佳护肤时机" />
+ 
+ </LinearLayout>
+</RelativeLayout>
+<RelativeLayout android:gravity="center_vertical" 
+    android:orientation="horizontal" 
+    android:clickable="true" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_margin="10.0sp" 
+    android:onClick="onGameListener">
+ 
+ <ImageView android:id="@id/personal_iv_dd" 
+     android:layout_width="45.0dip" 
+     android:layout_height="45.0dip" 
+     android:layout_marginRight="5.0dip" 
+     android:src="@drawable/find_game" 
+     android:layout_alignParentLeft="true" 
+     android:layout_centerVertical="true" 
+     android:contentDescription="@null" />
+ 
+ <LinearLayout android:orientation="vertical" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_toRightOf="@id/personal_iv_dd" 
+     android:layout_centerVertical="true">
+ 
+ <TextView android:textSize="16.0sp" 
+     android:textColor="@color/app_black_gray" 
+     android:duplicateParentState="true" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" 
+     android:text="护肤游戏" />
+ 
+  <TextView android:textSize="@dimen/personal_info_font" 
+      android:textColor="@color/gray_font" 
+      android:duplicateParentState="true" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_marginTop="8.0dip" 
+      android:text="最有趣的游戏，轻松赚取脸蛋币" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

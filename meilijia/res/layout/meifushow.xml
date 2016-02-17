@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:background="@color/gray_light" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+   <RelativeLayout 
+        android:id="@+id/content_relative_title" 
+        android:background="@drawable/title_bg" 
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+
+      <TextView android:textSize="18.0sp" 
+            android:textColor="@color/white" 
+            android:gravity="center" 
+            android:id="@+id/topic_title_tv" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:text="美肤show" 
+            android:layout_centerHorizontal="true" />
+
+      <Button
+          android:id="@+id/fabiao"
+          android:layout_width="90dip"
+          android:layout_height="50dip"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:text="发表" 
+          android:textColor="@android:color/white"
+          android:background="@drawable/bt_bg"
+          />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip" />
+
+</LinearLayout>

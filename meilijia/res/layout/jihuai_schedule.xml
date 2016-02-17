@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+ <RelativeLayout android:gravity="center_vertical" 
+     android:id="@+id/top_rll" 
+     android:background="@drawable/title_bg" 
+     android:layout_width="fill_parent" 
+     android:layout_height="50.0dip">
+ 
+     
+ <TextView android:textSize="@dimen/font_size_title" 
+    android:textColor="@color/white" 
+    android:gravity="center" 
+    android:id="@+id/index_title" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="护肤计划" 
+    android:singleLine="true" 
+    android:layout_centerInParent="true" />
+</RelativeLayout>
+    <com.weiwei.meilijia.borderText.BorderTextView 
+      android:id="@+id/scheduleTop"
+	  android:gravity="center"
+	  android:layout_width="fill_parent"
+	  android:layout_height="40dp"
+	  android:background="@drawable/top_day"
+	  android:textStyle="bold"
+	  android:clickable="true"
+	  android:textColor="#000000"
+	  android:text="护肤日程"
+  />
+  
+  <com.weiwei.meilijia.borderText.BorderTextView 
+      android:id="@+id/scheduleType"
+      android:gravity="center_vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="40dp"
+	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
+	  android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:drawableRight="@drawable/schedule_type"
+      android:textColor="#000000"
+      android:clickable="true"
+  />
+  <com.weiwei.meilijia.borderText.BorderTextView 
+      android:id="@+id/scheduleDate"
+      android:gravity="center_vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="43dp"
+	  android:textStyle="bold"
+	  android:layout_marginTop="5dp"
+	  android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:textColor="#000000"
+      android:clickable="true"
+  />
+  <com.weiwei.meilijia.borderText.BorderEditText
+      android:id="@+id/scheduleText"
+      android:gravity="top"
+ 	  android:layout_width="fill_parent"
+	  android:layout_height="240dp"
+	  android:background="@null"
+	  android:layout_marginTop="5dp"
+	  android:paddingLeft="10dp"
+      android:paddingRight="10dp"
+      android:textColor="#000000"
+      android:hint="请详细输入你护肤计划内容..."
+  />
+  <com.weiwei.meilijia.borderText.BorderTextView 
+      android:id="@+id/save"
+	  android:gravity="center"
+	  android:layout_width="fill_parent"
+	  android:layout_height="45dp"
+	  android:background="@drawable/top_day"
+	  android:textStyle="bold"
+	  android:clickable="true"
+	  android:layout_marginTop="5dp"
+	  android:textColor="#000000"
+	  android:text="保存"
+  />
+  <!--<Button
+      android:id="@+id/save"
+      android:gravity="center"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:text="SAVE"
+      
+  />
+  --></LinearLayout>

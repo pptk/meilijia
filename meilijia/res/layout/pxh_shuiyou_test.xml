@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_test_wo"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/content_relative_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/app_red_bg" >
+
+          <ImageView
+            android:id="@+id/imagevie"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:onClick="onLeftClickListener"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/title_btn_back" />
+        
+
+        <TextView
+            android:id="@+id/topic_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="水油测试"
+            android:textColor="#ffffff"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/li"
+                    android:layout_width="150dip"
+                    android:layout_height="150dip"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/pxh_bg"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/youzhi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="油分"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+
+                    <TextView
+                        android:id="@+id/shuifen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="水分"
+                        android:textColor="#ffffff"
+                        android:textSize="18dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linearlayout"
+                    android:layout_width="200dip"
+                    android:layout_height="45dip"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dip"
+                    android:background="@drawable/btn_bg"
+                    android:gravity="center"
+                    >
+
+                    <TextView android:id="@+id/tis" 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#999999"
+                        android:textSize="16dip"
+                        android:text=""
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_marginBottom="50dip"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:background="#f76d9c"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击测试"
+                android:textColor="#ffffff"
+                android:textSize="18dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/record"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:background="#eeeeee"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测试记录"
+                android:textColor="#999999"
+                android:textSize="12dip" />
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="20dip"
+                android:background="@drawable/xiangxia" />
+        </LinearLayout>
+    </LinearLayout>
+	
+</RelativeLayout>

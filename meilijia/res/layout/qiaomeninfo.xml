@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f7f7f8"
+    >    
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip" 
+        android:background="@drawable/title_bg"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="护肤小窍门"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        
+
+
+    </RelativeLayout>   
+    <LinearLayout
+        android:id="@+id/banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+            
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       android:background="#ffffff"
+        >
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="5dip"
+            android:text="本期专题"
+            android:textSize="17dip"
+            />
+        </LinearLayout>
+   <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       android:background="#ffffff"
+        >
+    <TextView
+        android:id="@+id/title_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:text="土豆 "
+        android:textSize="14dip" 
+        android:textColor="@android:color/black"
+        />  
+
+  </LinearLayout>
+    <TextView
+       android:id="@+id/space"
+       android:layout_width="match_parent"
+       android:layout_height="5dip"
+       android:text=" "
+       android:background="#f7f7f8"
+       />
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dip"
+       android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/title_3"
+            android:layout_width="70dip"
+            android:layout_height="25dip"
+            android:gravity="center_vertical"
+            android:text="【简介】" 
+            android:background="#59aa70"
+            />
+</LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#ffffff"
+        >
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:text=" " 
+            android:textSize="16dip"
+            android:textColor="#808080"
+            />
+        </LinearLayout>
+      <LinearLayout
+        android:id="@+id/ll6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dip"
+       android:background="#ffffff"
+        >
+
+        <TextView
+            android:id="@+id/qiaomen_title"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:gravity="center_vertical"
+            android:text="" 
+            android:background="#59aa70"
+            />
+</LinearLayout>
+
+      <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#ffffff"
+        >
+        <TextView
+            android:id="@+id/fangfa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="10dip"
+            android:text=" " 
+            android:textSize="16dip"
+            android:textColor="#808080"
+            />
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

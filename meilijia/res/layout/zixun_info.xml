@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/title_bg" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="发表咨询"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="160dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip" >
+
+        <EditText
+            android:id="@+id/zixun_miaosu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#fefefe"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="请描述你想咨询的问题"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip"
+            android:textSize="16sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/zixun_jiange"
+        android:layout_width="fill_parent"
+        android:layout_height="10dip" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/zixun_photo2"
+            android:layout_width="65dip"
+            android:layout_height="65dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/zixun_photo1"
+            android:src="@drawable/icon_addpic_unfocused"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/gv"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:columnWidth="5dip"
+            android:numColumns="4"
+            >
+        </GridView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/zixun_jiange2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip" />
+
+    <Button
+        android:id="@+id/zixun_input"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="#ec3f5f"
+        android:text="发表"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

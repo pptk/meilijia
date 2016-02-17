@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/position_"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:background="#f7f7f7"
+            android:hint="部位" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="#eeeeee" />
+
+        <EditText
+            android:id="@+id/brand_"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="#f7f7f7"
+            android:hint="品牌" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="#eeeeee" />
+
+        <EditText
+            android:id="@+id/dowhat_"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="#f7f7f7"
+            android:hint="部位" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:background="#eeeeee" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_marginTop="8dip"
+            android:orientation="horizontal"
+             >
+
+            <Button
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:background="#FF99FF"
+                android:text="取消"
+                android:textColor="#ffffff"
+                android:textSize="18dip" />
+			<View
+			    android:layout_width="1dip"
+			    android:layout_height="40dip"
+			    android:background="#eeeeee"
+			    />
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:background="#FF99FF"
+                android:text="确定"
+                android:textColor="#ffffff"
+                android:textSize="18dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

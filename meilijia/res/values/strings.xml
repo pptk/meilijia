@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"美丽加"</string>
+    <string name="action_settings">Settings</string>
+     <string name="title_activity_main">MainActivity</string>
+     <string name="activity_data_src">交流方式QQ：\n1908232376\n\n数据来源：\n中国天气网\n\n北京接口示例：\nhttp://m.weather.com.cn/data/101010100.html\n\n图片来源：\n其它软件apk改成rar直接解压后得到\n\n图片制作方式：\n在线http://www.uupoop.com/ps/\n\n艺术字效果生成器：\nhttp://www.qt86.com/</string>
+      <string name="text_theme_num1">1/7</string>
+      <string name="text_theme1">青春背景</string>
+     <string name="register_tip">提示\n用户名和密码由字母、数字、下划线组成，长度6-16位。其它信息如实填写有助于了解更多</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="my_tb">我的淘宝</string>
+     <string name="title_activity_tabao">TabaoActivity</string>
+     <string name="todo">TODO</string>
+     <string name="user_work_back">返回</string>
+     <string name="meiliquan_tv_it">美丽圈</string>
+     <string name="find_tv_hd">发现</string>
+      <string name="title_activity_result">ResultActivity</string>
+    <!-- 首页 -->
+     <string name="index_limit">最后一次测试记录</string>
+    
+    
+      <string name="index_price">油质含量:</string>
+      <string name="index_raw_price">水分含量:</string>
+      <string name="index_slogan">皮肤测试</string>
+      <string name="index_promotion">测试记录</string>
+      <string name="index_recharge">护肤计划</string>
+    
+      <string name="index_group_buy">护肤提醒</string>
+      <string name="index_lottery">护肤变化</string>
+      <string name="index_shake">护肤品的评测</string>
+      <string name="index_order">在线咨询</string>
+    
+     
+    <string name="index_history">护肤品分类</string>
+    <string name="index_collect">美肤show</string>
+    <string name="index_life_journey">生活娱乐</string>
+    <string name="index_notify_info">向左滑，更多产品等你选</string>
+    <string name="index_shopping_jinqiufengbao">控油商品</string>
+    <string name="index_shopping_remenyouhui">补水商品</string>
+    <!-- 关于信息 -->
+    <string name="explain_meilijia">美丽加是专为女性的美丽肌肤研发的一款智能测试仪.通过和手机APP结合帮助你精确掌握肌肤水分状态，从而更精确地选择护肤品与正确的护理项目。</string>
+    <string name="explain_oauht">美丽加数据来源于皮肤测试仪的测试的数据，如果要观察莫一护肤品的功效最好是在同一处多次测试，才能更好的确保数据来源同一处。</string>
+    <string name="jiaochen">本产品结合移动微型肌肤测试仪，可通过测试肌肤分析用户脸部肌肤状态，判断用户肤质，得出详细数据，根据数据为用户推荐产品，定制科学的护肤计划。此外，用户还可以参与各种美容商品活动，与其他用户交流美容心得，发帖、交友来获取积分换取奖品等等。</string>
+       <!-- JazzyViewPager -->
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <!-- JazzyViewPager -->
+</resources>
